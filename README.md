@@ -1,4 +1,4 @@
-# Personal Aircrafts Locations Agreggator Service
+# Personal Aircrafts Locations Aggregator Service
 
 ## Server components
 
@@ -86,24 +86,26 @@ In geomap properties, slect layer type "Markers", Symbol "Plane", Rotation angle
 ## Data Specifications
 Categories:
 Aircraft Category Type table Hexadecimal valueas assigned by FLARM. Range: from 0 to F:
-0 = reserved
-1 = glider/motor glider (turbo, self-launch, jet) / TMG
-2 = tow plane/tug plane
-3 = helicopter/gyrocopter/rotorcraft
-4 = skydiver, parachute (Do not use for drop plane!)
-5 = drop plane for skydivers
-6 = hang glider (hard)
-7 = paraglider (soft)
-8 = aircraft with reciprocating engine(s)
-9 = aircraft with jet/turboprop engine(s)
-A = unknown
-B = balloon (hot, gas, weather, static)
-C = airship, blimp, zeppelin
-D = unmanned aerial vehicle (UAV, RPAS, drone)
-E = (reserved)
-F = static obstacle
+
+- 0 = reserved
+- 1 = glider/motor glider (turbo, self-launch, jet) / TMG
+- 2 = tow plane/tug plane
+- 3 = helicopter/gyrocopter/rotorcraft
+- 4 = skydiver, parachute (Do not use for drop plane!)
+- 5 = drop plane for skydivers
+- - 6 = hang glider (hard)
+- 7 = paraglider (soft)
+- 8 = aircraft with reciprocating engine(s)
+- 9 = aircraft with jet/turboprop engine(s)
+- A = unknown
+- B = balloon (hot, gas, weather, static)
+- C = airship, blimp, zeppelin
+- D = unmanned aerial vehicle (UAV, RPAS, drone)
+- E = (reserved)
+- F = static obstacle
 
 Address type:
-1 = ICAO
-2 = FLARM
-3 = OGN tracker
+
+- 1 = ICAO
+- 2 = FLARM
+- 3 = OGN tracker
