@@ -1,0 +1,4 @@
+parameters.conf
+gdl90py/__pycache__
+gdl90py/messages/__pycache__
+gdl90py/utils/__pycache__
